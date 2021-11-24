@@ -1,0 +1,157 @@
+{
+  "navbar": {
+    "home": "Home",
+    "sobre": "About",
+    "servico": "Our service",
+    "privacidade": "Why does privacy matter?",
+    "contato": "Contact",
+    "demo": "Get a demo"
+  },
+  "home": {
+    "hero": "Are yours and your customers' data ",
+    "hero2": "safe?",
+    "servico": "Discover our service",
+    "oi": "Hi,",
+    "somos": "we are prify",
+    "oi2": "Hi, we are prify",
+    "descricao": "We develop innovative solutions for the use of sensitive data based on the most modern data protection techniques",
+    "mais": "More",
+
+    "sobreTitulo": "We go beyond hiding your name and national identity number",
+    "listItem1": "Pioneering",
+    "descricao1": "We are the first Brazilian company to provide solutions using differential privacy mechanisms",
+    "listItem2": "Exclusivity",
+    "descricao2": "We develop specific solutions for our customers' privacy and data protection needs",
+    "listItem3": "Cutting Edge Technology",
+    "descricao3": "We use modern technologies and algorithms to protect your personal data",
+
+    "privform": "Meet PrivForms",
+    "privform1": "Meet",
+    "privform2": "PrivForms",
+    "privDescricao": "Make surveys, questionnaires and forms more secure",
+    "privButton": "I want to know more about it",
+
+    "importancia": "What is data privacy",
+    "porque": "and why does it matter?",
+
+    "fale": "Contact",
+    "precisa": "Do you need anonymization on your system? We develop the best solution for you.",
+
+    "telefone": "Telephone",
+
+    "whatsapp": "Speak through Whatsapp",
+    "demo1": "Get a demo",
+
+    "descubra": "Discover how to protect your business",
+    "direitos": "© Prify. All rights reserved",
+
+
+
+    "reconhecimento": "7 years of experience in data privacy",
+    "reconhecimento1": "27 articles published in journals and conferences in the area",
+    "reconhecimento2": "Collaboration with AT & T and Université Grenoble Alpes"
+  },
+
+  "nome": "Name",
+  "empresa": "Company",
+  "email": "Email",
+  "demanda": "Tell us more about your demand",
+
+  "about": {
+    "titulo": "About Prify",
+    "descricao": "Learn more about the company that adds privacy to your services",
+
+    "basic": "Basic information",
+    "list-item1": "We are pioneers in Brazil",
+    "list-item2": "We have a team of privacy experts",
+    "list-item3": "We respect the LGPD",
+    "list-item4": "We use modern algorithms and cutting edge technologies",
+    "list-item5": "We have scientific background",
+    "list-item6": "We guarantee data quality after anonymization",
+
+    "citacao": "”Developing strong customer relationships has always been critical for brands to build a successful business, and this becomes even more vital in a world that prioritizes privacy.”",
+    "profissao": "Director of Product Management - Ads Privacy and Trust",
+
+    "time": "Our team",
+
+    "cargo": "Technical manager",
+    "curriculo": "Doctoral student in Computer Science. Senior Inventive Scientist in AI, Algorithm Ethics and Privacy on the LSBD Research Team.",
+
+    "cargo1": "Senior Scientist",
+    "curriculo1": "Doctoral student in Computer Science. More than 12 years of experience in software development. Technical Manager and Researcher at LSBD.",
+
+    "cargo2": "Co-founder",
+    "curriculo2": "Full professor at the Computer Science Department at UFC. Founder of LSBD. Leader of R&D projects for the last 15 years. Data management, AI ethics and data privacy.",
+
+
+    "cargo3": "Co-founder",
+    "curriculo3": "Adjunct Professor at the Federal University of Ceará. Researcher at LSBD on AI and Data Privacy. Interested in Machine Learning, Data Privacy and Software Development"
+  },
+
+  "service": {
+    "titulo": "Our service",
+    "descricao": "Solutions based on the state of the art of the scientific data privacy literature",
+
+    "alem": "We go beyond hiding your name and national id",
+    "list-item": "It is possible to re-identify the holder through data crossing",
+    "list-item1": "Data that has its anonymization reversed may be considered personal data and are under the effect of the LGPD",
+    "list-item2": "Prify makes sure that you treat your customer and employee data securely and reliably",
+    "list-item3": "We use the best ways to treat your data",
+
+    "privform": "PrivForms:",
+    "como-funciona": "how does it work?",
+    "priv-item": "Ensure secure data collection",
+    "priv-item1": "All data collected is anonymized via randomization using Differential Privacy",
+    "priv-item2": "Give your respondents the freedom to express themselves without fear",
+    "priv-item3": "Get reliable data where respondents don't need to hide their real answers",
+
+    "aplicacao": "Some PrivForms Uses",
+    "titulo-item": "Institutional Evaluation",
+    "titulo-item1": "Health research",
+    "titulo-item2": "Academic research",
+
+    "descricao-item": "Collect authentic and private data to improve your business",
+    "descricao-item1": "Protect your patients' privacy",
+    "descricao-item2": "Collect data for your surveys privately",
+
+    "demanda1": "Do you have another demand?",
+    "demanda-descricao": "Is your demand not covered by PrivForms? Talk to us for a custom solution.",
+
+    "enviar": "Send"
+  },
+
+  "privacy": {
+    "titulo": "Why does privacy matter?",
+    "descricao": "Privacy the traditional way doesn't do any more",
+
+    "explicacao": "In the current age of data exploitation, your privacy is threatened and, consequently, your freedom as a human being. The individual's interest in the privacy of their data has grown at the same pace that this data is used by the industry to generate and obtain value from this information. Recently, companies have realized this interest in privacy and seek to use techniques to obtain information from data without breaches and breaches of privacy and demonstrate this to their customers. Furthermore, the great nations around the world have developed mechanisms, through law, to defend the privacy and security of its citizens' data.",
+
+
+    "perguntas-titulo": "If your company deals with data, it is important to know how to answer the following questions:",
+
+    "list-item": "What do you want your customer’s data for?",
+    "list-item1": "How long will your company have access to this data?",
+    "list-item2": "What security mechanism will you use?",
+
+    "lgpd-titulo": "Adaptation to the General Data Protection Law",
+    "lgpd-descricao": "The General Data Protection Law determines, among other obligations, that the data and processes that use personal data must guarantee the anonymity of individuals who have had their data used. For this, it is necessary that each and every company that holds data on its customers or partners use anonymization processes to ensure that their company is in compliance with the LGPD.",
+
+    "anonimizacao-titulo": "What is anonymization?",
+    "anonimizacao-descricao": "It is the process for anonymizing data, that is, ensuring that the individuals owning the data are not discovered and identified. Anonymization can be done in several ways, however, it is desirable that the least possible modification be made to the data to ensure its good use, and still ensure the anonymity of individuals.",
+
+    "problemas-titulo": "Problems that can arise from lack of investment in privacy",
+    "problemas-item-titulo": "Politics and public health",
+    "problemas-item-titulo1": "Hospital secrecy",
+
+    "problemas-descricao": "Due to the pandemic, the Department of Health of Ceará has published a list of results of the Covid-19 exams of people from Ceará, duly anonymized, without the name and CPF of the patient. Parallel to this, the Electoral Court of Ceará published the list of candidates for councilors in the State's municipalities in the last election. A simple association between the two lists allowed the re-identification of 72% of the candidates elected for the Fortaleza election. Thus, sensitive information from the candidates, such as exam results and declared comorbidities, were discovered.",
+    "problemas-descricao1": "A hospital in the Federal District had to compensate a family victim of a scam for breach of confidentiality. A person claiming to be an employee of the Hospital contacted the hospitalized patient's son, claiming the need for an extra exam and asked to transfer the corresponding amount. Supposedly, the criminals had access to the patient's relative's number through the hospital's records, configuring a failure in the provision of the service. Data privacy in hospitals is essential, due to the existence of sensitive data."
+  },
+
+  "contact": {
+    "titulo": "Contact",
+    "obrigatorio": "*This field is required.",
+    "invalido": "*Email must be valid.",
+    "sucesso": "Email successfully sent",
+    "falha": "Failed to send email"
+  }
+}

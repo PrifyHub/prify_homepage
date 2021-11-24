@@ -1,0 +1,55 @@
+{
+  "name": "site-prify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn lint --fix",
+      "yarn test --findRelatedTests --bail"
+    ]
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.7",
+    "@styled-icons/bootstrap": "^10.34.0",
+    "@styled-icons/entypo-social": "^10.34.0",
+    "@styled-icons/material": "^10.34.0",
+    "dotenv": "^10.0.0",
+    "i18next": "^20.6.1",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "i18next-http-backend": "^1.3.1",
+    "next": "11.1.0",
+    "next-translate": "^1.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-i18next": "^11.12.0",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.1",
+    "@types/react": "^17.0.19",
+    "@types/styled-components": "^5.1.12",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^27.0.6",
+    "prettier": "2.3.2",
+    "typescript": "^4.3.5"
+  }
+}

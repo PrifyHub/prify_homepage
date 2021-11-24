@@ -1,0 +1,156 @@
+{
+  "navbar": {
+    "home": "Home",
+    "sobre": "Sobre",
+    "servico": "Nosso serviço",
+    "privacidade": "Por que privacidade importa?",
+    "contato": "Contato",
+    "demo": "Peça uma demo"
+  },
+
+  "home": {
+    "hero": "Os seus dados e dos seus clientes",
+    "hero2": " estão seguros?",
+    "servico": "Conheça nosso serviço",
+    "oi": "Oi,",
+    "somos": "somos a prify",
+    "oi2": "Oi, somos a prify",
+    "descricao": "Desenvolvemos soluções inovadoras para a utilização de dados sensíveis a partir das técnicas mais modernas de proteção de dados",
+    "mais": "Saiba mais",
+
+    "sobreTitulo": "Vamos além de ocultar o nome e CPF",
+    "listItem1": "Pioneirismo",
+    "descricao1": "Somos a primeira empresa brasileira a prover soluções utilizando mecanismos de privacidade diferencial ",
+    "listItem2": "Exclusividade",
+    "descricao2": "Desenvolvemos soluções específicas às necessidades de privacidade e proteção de dados dos nossos clientes ",
+    "listItem3": "Tecnologia de ponta",
+    "descricao3": "Utilizamos tecnologias e algoritmos super modernos para proteger seus dados pessoais",
+
+
+    "privform": "Conheça o PrivForms",
+    "privform1": "Conheça",
+    "privform2": "o PrivForms",
+    "privDescricao": "Faça pesquisas, questionários e fomulários com mais segurança.",
+    "privButton": "Quero saber mais",
+
+    "importancia": "O que é privacidade",
+    "porque": "e porque importa?",
+
+    "fale": "Fale conosco",
+    "precisa": "Precisa de anonimização no seu sistema? Desenvolvemos a melhor solução para você.",
+
+    "telefone": "Telefone",
+    "whatsapp": "Fale pelo Whatsapp",
+    "demo1": "Solicite uma demonstração",
+
+    "descubra": "Descubra como proteger sua empresa",
+    "direitos": "© Prify. All rights reserved",
+
+    "reconhecimento": "7 anos de experiência em privacidade de dados",
+    "reconhecimento1": "27 artigos publicados em periódicos e conferências da área",
+    "reconhecimento2": "Colaboração com AT & T e Université Grenoble Alpes"
+  },
+
+  "nome": "Nome",
+  "empresa": "Empresa",
+  "email": "Email",
+  "demanda": "Conte-nos sobre a sua demanda",
+
+  "about": {
+    "titulo": "Sobre a Prify",
+    "descricao": "Conheça mais sobre a empresa que agrega segurança aos seus serviços",
+
+    "basic": "Informações básicas",
+    "list-item1": "Somos pioneiros no Brasil",
+    "list-item2": "Possuímos um time de especialistas em privacidade",
+    "list-item3": "Respeitamos a LGPD",
+    "list-item4": "Utilizamos algoritmos modernos e tecnologias de ponta",
+    "list-item5": "Dispomos de background científico",
+    "list-item6": "Garantimos a qualidade dos dados após anonimização",
+
+    "citacao": "“O desenvolvimento de relacionamentos sólidos com clientes semprefoi fundamental para as marcas construírem um negócio de sucesso, e isso se torna ainda mais vital em um mundo que prioriza a privacidade”.",
+    "profissao": "Diretor de Gestão de Produto - Ads Privacy and Trust",
+
+    "time": "Nossa equipe",
+
+    "cargo": "Gerente Técnico",
+    "curriculo": "Doutorando em Ciência da Computação. Mais de 12 anos de experiência em desenvolvimento de software. Gerente Técnico e Pesquisador do LSBD.",
+
+    "cargo1": "Cientista Senior",
+    "curriculo1": " Doutorando em Ciência da Computação. Cientista Inventivo Sênior em IA, ética de algoritmos e privacidade na equipe de pesquisa LSBD.",
+
+    "cargo2": "Cofundador",
+    "curriculo2": "Professor titular no Departamento de Ciência da Computação na UFC. Fundador do LSBD. Líder de projetos de P&D nos últimos 15 anos. Gerenciamento de dados, ética em IA e privacidade de dados.",
+
+
+    "cargo3": "Cofundador",
+    "curriculo3": "Professor adjunto na Universidade Federal do Ceará. Pesquisador no LSBD em IA e privacidade de dados. Tem interesse em Aprendizado de Máquina, Privacidade de Dados e Desenvolvimento de Software."
+  },
+
+  "service": {
+    "titulo": "Nosso serviço",
+    "descricao": "Soluções baseadas no estado da arte da literatura científica de privacidade de dados",
+
+    "alem": "Nós vamos além de ocultar o nome e cpf",
+    "list-item": "É possível re-identificar o titular a partir do cruzamento de dados",
+    "list-item1": "Dados que tem sua anonimização revertida podem ser considerados dados pessoais e estão sob efeito da LGPD",
+    "list-item2": "A prify preza que você trate os dados dos seus clientes e dos seus funcionários de forma segura e confiável",
+    "list-item3": "Utilizamos o melhores meios para tratar seus dados",
+
+    "privform": "PrivForms:",
+    "como-funciona": "como funciona?",
+    "priv-item": "Garanta a coleta segura de dados de dados",
+    "priv-item1": "Todos os dados coletados são anonimizados via randomização usando Privacidade Diferencial",
+    "priv-item2": "Dê a liberdade para os seus respondentes se expressarem sem medo",
+    "priv-item3": "Obtenha dados confiáveis onde os respondentes não precisem esconder suas reais respostas",
+
+
+    "aplicacao": "Algumas aplicações do PrivForms",
+    "titulo-item": "Avaliação Institucional",
+    "titulo-item1": "Pesquisas na área de saúde",
+    "titulo-item2": "Pesquisas acadêmicas",
+
+    "descricao-item": "Colete dados autênticos e privados para melhorar seu negócio",
+    "descricao-item1": "Proteja a privacidade dos seus pacientes",
+    "descricao-item2": "Colete dados para as suas pesquisas de forma privada",
+
+    "demanda1": "Você tem outra demanda?",
+    "demanda-descricao": "A sua demanda não está contemplada pelo Privform? Fale com a gente para uma solução personalizada.",
+
+    "enviar": "Enviar"
+  },
+
+  "privacy": {
+    "titulo": "Por que privacidade importa?",
+    "descricao": "Privacidade do jeito tradicional já não serve mais",
+
+    "explicacao": "Na atual época da exploração de dados sua privacidade está ameaçada e consequentemente, sua liberdade como ser humano. O interesse individual sobre a privacidade de seus dados cresceram ao mesmo compasso com que esses dados são utilizados pela indústria para gerar e obter valor dessas informações. Recentemente, as companhias perceberam esse interesse na privacidade e buscam utilizar técnicas para a obtenção de informação dos dados sem que haja brechas e violações de privacidade e demonstra isso para seus clientes. Além disso, as grandes nações ao redor do mundo desenvolveram mecanismos, através da lei, para defender a privacidade e segurança dos dados de seus cidadãos.",
+
+    "perguntas-titulo": "Se sua empresa lida com dados, é importante saber responder as seguintes perguntas:",
+
+    "list-item": "Para que você quer os dados dos seus clientes?",
+    "list-item1": "Por quanto tempo sua empresa terá acesso a esses dados?",
+    "list-item2": "Qual é o mecanismo de segurança que você vai usar?",
+
+    "lgpd-titulo": "Adequação à Lei Geral de Proteção de Dados",
+    "lgpd-descricao": "A Lei Geral de Proteção de Dados determina, dentre outras obrigações, que os dados e os processos que se utilizam dos dados pessoais devam garantir a anonimidade dos indivíduos que tiveram seus dados utilizados. Para isso, é necessário que toda e qualquer empresa que detenha dados de seus clientes ou parceiros utilizem-se de processos de anonimização para garantir que sua empresa esteja em conformidade com a LGPD.",
+
+    "anonimizacao-titulo": "O que é anonimização?",
+    "anonimizacao-descricao": "É o processo para os dados anônimos, ou seja, garantir que os indivíduos donos dos dados não sejam descobertos e identificados. A anonimização pode ser feita de várias maneiras, entretanto é desejável que seja feito a menor modificação possível nos dados para garantir uma boa utilidade dos mesmos, e ainda garantir a anonimidade dos indivíduos.",
+
+    "problemas-titulo": "Problemas que podem surgir por falta de investimento em privacidade",
+    "problemas-item-titulo": "Política e Saúde Pública",
+    "problemas-item-titulo1": "Sigilo hospitalar",
+
+    "problemas-descricao": "Devido à pandemia, a Secretaria de Saúde do Ceará tem publicado uma lista de resultados dos exames de Covid-19 dos cearenses devidamente anonimizada, sem o nome e o CPF do paciente. Paralelo à isso, a Justiça Eleitoral do Ceará publicou a lista dos candidatos a vereadores dos municípios do Estado do último pleito. Uma associação simples entre as duas listas permitiu a re-identificação de 72% dos candidatos eleitos ao pleito de Fortaleza. Assim, informações sensíveis dos candidatos, como resultados de exames e comorbidades declaradas, foram descobertas.",
+    "problemas-descricao1": "Um hospital no Distritito Federal terá de indenizar uma família vítima de um golpe por quebra de sigilo. Uma pessoa se dizendo funcionária do Hospital entrou em contato com o filho da paciente internada, alegando a necessidade da realização de um exame extra e pediu a transferência do valor correspondente. Supostamente os criminosos tiveram acesso ao número do familiar da paciente por meio dos registros do hospital, configurando uma falha na prestação do serviço. A privacidade de dados em hospitais se faz essencial, devido à existência de dados sensíveis"
+  },
+
+  "contact": {
+    "titulo": "Contato",
+    "obrigatorio": "*Este campo é obrigatório.",
+    "invalido": "*Insira um email válido.",
+    "sucesso": "Email enviado com sucesso",
+    "falha": "Falha ao enviar email"
+  }
+}

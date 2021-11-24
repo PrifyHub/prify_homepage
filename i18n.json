@@ -1,0 +1,7 @@
+{
+  "locales": ["pt-BR", "en-US"],
+  "defaultLocale": "pt-BR",
+  "pages": {
+    "*": ["common"]
+  }
+}
