@@ -2,13 +2,25 @@ import styled from 'styled-components'
 
 import Image from 'next/image'
 
-export const HeroContent = styled.main`
+//                          Global
+export const Item = styled.p`
+  font-family: Anago;
+  font-size: var(--regular);
+  line-height: 120%;
+
+  color: var(--grey);
+`
+
+//HeroContent         Section 01
+
+export const HeroContentSection = styled.main`
+  width: 100%;
   min-width: 360px;
   height: 90vh; // 628px
 
-  padding: 0 var(--paddingLeft);
-
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   background-image: url('img/heroOurServices.png');
@@ -17,20 +29,27 @@ export const HeroContent = styled.main`
   background-position: center;
 
   @media screen and (min-width: 1200px) {
+    min-width: 312px;
     height: 100vh;
   }
 `
 
-export const TextWrapper = styled.div`
+export const HeroTextWrapper = styled.div`
+  width: 100%;
+  padding: 0 var(--paddingLeft2);
+  align-items: initial;
+`
+
+export const HeroWrapper = styled.div`
   max-width: 360px;
 
   width: 85%;
   p + p {
-    margin-top: var(--regular);
+    margin-top: var(--small);
   }
 
   @media screen and (min-width: 1200px) {
-    max-width: 600px;
+    max-width: 515px;
   }
 `
 
@@ -38,6 +57,7 @@ export const HeroTitle = styled.p`
   font-family: Anago;
   font-size: clamp(var(--title), 5vw, 64px);
   line-height: 120%;
+  font-weight: bold;
 
   color: var(--white);
 `
@@ -50,17 +70,23 @@ export const HeroText = styled.p`
   color: var(--white);
 `
 
-export const PrinciplesPrifyWrapper = styled.section`
+//PrifyPrinciples     Section 02
+
+export const PrinciplesPrifySection = styled.section`
   min-width: 360px;
   min-height: 666px;
+
   background: var(--purple);
 
-  padding: var(--paddingTop) var(--paddingLeft);
+  padding: var(--paddingTop2) var(--paddingLeft2);
+
+  background-image: url('img/lockerBg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 18vh;
 
   @media screen and (min-width: 1200px) {
-    background-image: url('img/lockerBg.png');
-    background-repeat: no-repeat;
-    background-position: right bottom;
+    height: 77vh;
   }
 `
 
@@ -85,26 +111,32 @@ export const PrinciplesList = styled.ul`
 
 export const PrinciplesListItem = styled.li`
   color: var(--white);
+  padding-left: 8px;
 `
 
 export const Principle = styled.p`
   font-family: Anago;
   font-size: var(--regular);
   line-height: 120%;
+  letter-spacing: 1px;
 
   color: rgba(255, 255, 255, 0.87);
 `
 
-export const PrivFormsWrapper = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+//How it Works        Section 03
 
+export const HowItWorksSection = styled.section`
   min-width: 360px;
-  min-height: 666px;
-  background: var(--white);
 
-  padding: var(--paddingTop) var(--paddingLeft);
+  background: #e1e1e1;
+
+  @media screen and (min-width: 1200px) {
+    height: 122vh;
+  }
+`
+
+export const HowItWorksWrapper = styled.div`
+  padding: var(--paddingTop2) var(--paddingLeft2);
 `
 
 export const HowItWorksTitle = styled.p`
@@ -113,6 +145,12 @@ export const HowItWorksTitle = styled.p`
   line-height: 120%;
 
   color: var(--purple);
+`
+
+export const HowItWorksBtn = styled.div`
+  @media screen and (min-width: 1200px) {
+    margin-top: var(--regular);
+  }
 `
 
 export const HowItWorksList = styled.ul`
@@ -128,25 +166,53 @@ export const HowItWorksListItem = styled.li`
   color: var(--grey);
 `
 
-export const Item = styled.p`
-  font-family: Anago;
-  font-size: var(--regular);
-  line-height: 120%;
+export const PrivFormsWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-  color: var(--grey);
+  min-width: 360px;
+  min-height: 666px;
+  background: var(--white);
+
+  padding: var(--paddingTop) var(--paddingLeft);
 `
 
-export const HowItWorksBtn = styled.div`
+//WorkTogether        Section 04
+
+export const WorkTogetherSection = styled.section`
+  min-width: 360px;
+
+  background: #a1a1a1;
+
   @media screen and (min-width: 1200px) {
-    margin-top: var(--regular);
+    height: 60vh;
   }
 `
 
-export const PrivFormsApplicationWrapper = styled.section`
-  background: var(--purple);
+//AboutLGPD           Section 05
 
+export const AboutLgpdSection = styled.section`
+  min-width: 360px;
+
+  background: #e1e1e1;
+
+  @media screen and (min-width: 1200px) {
+    height: 135vh;
+  }
+`
+
+//HowToAnon           Section 06
+
+//AnotherWaysTecn     Section 07
+
+//PrivateForm         Section 08
+
+export const PrivFormsApplicationWrapper = styled.section`
   min-width: 360px;
   height: 1000px;
+
+  background: var(--purple);
 
   display: flex;
   flex-direction: column;
