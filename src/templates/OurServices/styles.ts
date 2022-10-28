@@ -80,13 +80,19 @@ export const PrinciplesPrifySection = styled.section`
 
   padding: var(--paddingTop2) var(--paddingLeft2);
 
-  background-image: url('img/lockerBg.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-position-y: 18vh;
+  // background-image: url('img/lockerBg.png');
+  // background-repeat: no-repeat;
+      // background-position: right;
+      // background-position-y: 18vh;
+  // background-position: right bottom;
+  // background-position-y: 18vh;
 
   @media screen and (min-width: 1200px) {
     height: 77vh;
+    background-image: url('img/lockerBg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
   }
 `
 
@@ -127,12 +133,13 @@ export const Principle = styled.p`
 
 export const HowItWorksSection = styled.section`
   min-width: 360px;
+  min-height: 123vh; //1170px
+  // max-width: 560px;
+  // height: 123vh; // 1170px
 
-  background: #e1e1e1;
-
-  @media screen and (min-width: 1200px) {
-    height: 122vh;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   height: 122vh;
+  // }
 `
 
 export const HowItWorksWrapper = styled.div`
@@ -145,6 +152,117 @@ export const HowItWorksTitle = styled.p`
   line-height: 120%;
 
   color: var(--purple);
+`
+
+export const HowItWorksSubtitle0 = styled.p`
+  font-family: Anago;
+  font-size: clamp(var(--title), 5vw, 40px);
+  line-height: 120%;
+
+  color: var(--purple);
+`
+
+export const HowItWorksText0 = styled.div`
+  max-width: 1250px;
+
+  font-family: Anago;
+  font-size: var(--regular);
+  font-style: normal;
+  font-weight: normal;
+
+  color: var(--grey);
+
+  padding: 2vh 0;
+`
+
+export const HowItWorksTextAtom0 = styled.text`
+  color: var(--green);
+`
+
+export const HowItWorksPerson0 = styled.div`
+  height: 398px;
+  display: flex;
+
+  align-items: center;
+
+  // margin-bottom: -120px;
+
+  // max-width: 786px;
+  // display: flex;
+  // height: 390px;
+
+  // flex-direction: column;
+
+  // background-color: #2F1160;
+
+  @media screen and (min-width: 1200px){
+    width: 1200px;
+    margin: 0 auto -100px auto;
+  }
+`
+
+export const HowItWorksPTextWrapper = styled.div`
+  max-width: 360px;
+  height: 398px;
+  padding: 130px 0;
+`
+
+export const HowItWorksImage0 = styled(Image)`
+  max-width: 100%;
+  max-height: 100%;
+`
+
+export const HowItWorksPTextWrapper1 = styled.div`
+  max-width: 360px;
+  height: 398px;
+  padding: 130px 0;
+  margin-top: 5.5vh; //47px;
+`
+
+export const HowItWorksPerson1 = styled.div`
+  min-height: 51vh; //490px;
+  display: flex;
+
+  justify-content: right;
+
+  @media screen and (min-width: 1200px){
+    width: 1200px;
+    height: 490px;
+    margin: auto;
+  }
+`
+
+export const HowItWorksSubtitle1 = styled.p`
+  font-family: Anago;
+  font-size: clamp(var(--title), 5vw, 40px);
+  line-height: 120%;
+  color: var(--green);
+
+  text-align: right;
+`
+
+export const HowItWorksText1 = styled.div`
+  max-width: 1250px;
+
+  font-family: Anago;
+  font-size: var(--regular);
+  font-style: normal;
+  font-weight: normal;
+
+  color: var(--grey);
+
+  text-align: right;
+  padding: 2vh 0;
+`
+
+export const HowItWorksTextAtom1 = styled.text`
+  color: var(--purple);
+`
+
+export const HowItWorksImage1 = styled(Image)`
+  max-width: 100%;
+  max-height: 100%;
+  // vertical-align: top;
 `
 
 export const HowItWorksBtn = styled.div`

@@ -99,13 +99,18 @@
 
     "privform": "PrivForms:",
     "priv-howit": "Como funciona a Prify?",
-    "priv-item0": "Criamos soluções que simplificam o complexo mundo dos dados e entregamos tudo na palma da sua mão. Assim, você tem acesso a todas as informações protegidas, e pode utilizar esses dados privados da forma como desejar!",
-    "priv-item1": "Veja abaixo e entenda mais:",
+    "priv-item0": "Criamos soluções que simplificam o complexo mundo dos dados e entregamos tudo na palma da sua mão. Assim, você tem acesso a todas as informações ",
+    "priv-item1": "protegidas",
+    "priv-item2": ", e pode utilizar esses dados privados da forma como desejar!",
+    "priv-item3": "Veja abaixo e entenda mais:",
     "priv-julio": "Julio",
-    "priv-item2": "tem uma pequena clínica em seu bairro, para atender a população local",
+    "priv-jul-item": "tem uma pequena clínica em seu bairro, para atender a população local",
     "priv-mariana": "Mariana",
-    "priv-item3": "também mora no bairo de Julio, além de morar lá, ela tem uma farmácia no mesmo bairro.",
-    "priv-item4": "deseja fazer uma parceria com Julio, para oferecer descontos e atendimento personalizado para os pacientes dele.",
+    "priv-mar-item0": "também mora no bairo de ",
+    "priv-mar-item1": ", além de morar lá, ela tem uma farmácia no mesmo bairro.",
+    "priv-mar-item2": "deseja fazer uma parceria com ",
+    "priv-mar-item3": ", para oferecer descontos e atendimento personalizado para os pacientes dele.",
+    "priv-mar-itemJ": "Julio",
 
 
     "aplicacao": "Algumas aplicações do PrivForms",

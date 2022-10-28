@@ -8,11 +8,12 @@ import Navbar from 'components/Navbar'
 import DesktopFooter from 'components/Footer/desktopFooter'
 import Footer from 'components/Footer'
 
-import Health from '/public/svg/privForms/health.svg'
+import HIWFamily from '/public/svg/services/howitworksfamily.svg'
+import HIWDoctor from '/public/svg/services/howitworksmarin.svg'
 import Institucional from '/public/svg/privForms/institucional.svg'
 import Academic from '/public/svg/privForms/academic.svg'
-import Family from '/public/svg/services/howitworksfamily.svg'
-import Studant from '/public/svg/services/howitworksmarin.svg'
+
+
 
 import useMedia from 'hooks/useMedia'
 
@@ -133,7 +134,54 @@ const ServicesHeroTemplate = () => {
       <S.HowItWorksSection>
         <S.HowItWorksWrapper>
           <S.HowItWorksTitle>{t('service.priv-howit')}</S.HowItWorksTitle>
+
+          <S.HowItWorksText0>
+            {t('service.priv-item0')}
+            <S.HowItWorksTextAtom0>
+              {t('service.priv-item1')}
+            </S.HowItWorksTextAtom0>
+            {t('service.priv-item2')}
+          </S.HowItWorksText0>
+
+          <S.HowItWorksText0>{t('service.priv-item3')}</S.HowItWorksText0>
+
+          <S.HowItWorksPerson0>
+            <S.HowItWorksImage0 src={HIWFamily}></S.HowItWorksImage0>
+            <S.HowItWorksPTextWrapper>
+              <S.HowItWorksSubtitle0>
+                {t('service.priv-julio')}
+              </S.HowItWorksSubtitle0>
+              <S.HowItWorksText0>
+                {t('service.priv-jul-item')}
+              </S.HowItWorksText0>
+            </S.HowItWorksPTextWrapper>
+          </S.HowItWorksPerson0>
+
+          <S.HowItWorksPerson1>
+            <S.HowItWorksPTextWrapper1>
+              <S.HowItWorksSubtitle1>
+                {t('service.priv-mariana')}
+              </S.HowItWorksSubtitle1>
+              <S.HowItWorksText1>
+                {t('service.priv-mar-item0')}
+                <S.HowItWorksTextAtom1>
+                  {t('service.priv-mar-itemJ')}
+                </S.HowItWorksTextAtom1>
+                {t('service.priv-mar-item1')}
+              </S.HowItWorksText1>
+              <S.HowItWorksText1>
+                {t('service.priv-mar-item2')}
+                <S.HowItWorksTextAtom1>
+                  {t('service.priv-mar-itemJ')}
+                </S.HowItWorksTextAtom1>
+                {t('service.priv-mar-item3')}
+              </S.HowItWorksText1>
+            </S.HowItWorksPTextWrapper1>
+            <S.HowItWorksImage1 src={HIWDoctor}></S.HowItWorksImage1>
+          </S.HowItWorksPerson1>
+
         </S.HowItWorksWrapper>
+
 
       </S.HowItWorksSection>
       <S.WorkTogetherSection>
