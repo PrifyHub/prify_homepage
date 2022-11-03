@@ -80,19 +80,11 @@ export const PrinciplesPrifySection = styled.section`
 
   padding: var(--paddingTop2) var(--paddingLeft2);
 
-  // background-image: url('img/lockerBg.png');
-  // background-repeat: no-repeat;
-      // background-position: right;
-      // background-position-y: 18vh;
-  // background-position: right bottom;
-  // background-position-y: 18vh;
-
   @media screen and (min-width: 1200px) {
     height: 77vh;
     background-image: url('img/lockerBg.png');
     background-repeat: no-repeat;
     background-position: right bottom;
-
   }
 `
 
@@ -151,6 +143,8 @@ export const HowItWorksTitle = styled.p`
   font-size: clamp(var(--title), 5vw, 64px);
   line-height: 120%;
 
+  margin-left: auto;
+
   color: var(--purple);
 `
 
@@ -163,8 +157,6 @@ export const HowItWorksSubtitle0 = styled.p`
 `
 
 export const HowItWorksText0 = styled.div`
-  max-width: 1250px;
-
   font-family: Anago;
   font-size: var(--regular);
   font-style: normal;
@@ -185,17 +177,7 @@ export const HowItWorksPerson0 = styled.div`
 
   align-items: center;
 
-  // margin-bottom: -120px;
-
-  // max-width: 786px;
-  // display: flex;
-  // height: 390px;
-
-  // flex-direction: column;
-
-  // background-color: #2F1160;
-
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     width: 1200px;
     margin: 0 auto -100px auto;
   }
@@ -284,6 +266,207 @@ export const HowItWorksListItem = styled.li`
   color: var(--grey);
 `
 
+//WorkTogether        Section 04
+export const WorkTogetherSection = styled.section`
+  min-width: 360px;
+  height: 560px; //60vh;
+  // padding-top: 10px;
+
+  background: var(--purple);
+
+  @media screen and (min-width: 1200px) {
+    // min-height: 60vh;
+  }
+`
+
+export const WorkTogetherWrapper = styled.div`
+  padding: 15px var(--paddingLeft2);
+  display: flex;
+`
+
+export const WorkTogetherTitle = styled.p`
+  font-family: Anago;
+  font-size: clamp(var(--title), 5vw, 40px);
+  line-height: 120%;
+
+  padding: 2vh 0;
+
+  color: var(--white);
+`
+
+export const WorkTogetherTextAtom = styled.text`
+  color: var(--green);
+`
+
+export const WorkTogetherLeftTextWrapper = styled.div`
+  width: 250px;
+  margin-left: 80px;
+  padding-top: 70px;
+
+  font-family: Anago;
+  font-size: var(--regular);
+  font-style: normal;
+  font-weight: normal;
+
+  color: var(--white);
+  @media screen and (min-width: 1200px) {
+    margin-left: 10rem;
+    margin-right: auto;
+  }
+`
+
+export const WorkTogetherRightWrapper = styled.div`
+  width: 250px;
+  // margin-right: auto;
+  margin-left: 80px;
+  padding-top: 150px;
+
+  font-family: Anago;
+  font-size: var(--regular);
+  font-style: normal;
+  font-weight: normal;
+
+  text-align: right;
+
+  color: var(--white);
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    margin-right: 10rem;
+  }
+`
+
+export const WorkTogetherImage1 = styled(Image)`
+  max-width: 100%;
+  max-height: 100%;
+`
+
+//AboutLGPD           Section 05
+export const AboutLGPDSection = styled.section`
+  min-width: 360px;
+
+  @media screen and (min-width: 1200px) {
+    // height: 130vh;
+    min-width: 1100px;
+  }
+`
+
+export const AboutLGPDWrapper = styled.div`
+  padding: 5vh var(--paddingLeft2);
+  display: flex;
+`
+
+export const AboutLGPDTextW1 = styled.div`
+  width: 340px;
+
+  font-family: Anago;
+  font-style: normal;
+  font-weight: normal;
+
+  margin: auto auto auto 10rem;
+`
+
+export const AboutLGPDTextW2 = styled.div`
+  width: 820px;
+
+  font-family: Anago;
+  font-style: normal;
+  font-weight: normal;
+
+  margin-left: 10rem;
+`
+
+export const AboutLGPDTitle = styled.p`
+  font-size: clamp(var(--title), 5vw, 40px);
+  font-weight: bold;
+  line-height: 120%;
+
+  padding: 8px 0;
+`
+
+export const AboutLGPDText = styled.div`
+  font-size: var(--regular);
+
+  color: var(--grey);
+`
+
+export const AboutLGPDSubtextW = styled.div`
+
+  text-align: center;
+`
+
+export const AboutLGPDSubtext = styled.p`
+  font-size: var(--smaller);
+
+  font-weight: 800;
+
+  color: var(--purple);
+  // color: var(--white);
+`
+
+export const AboutLGPDTextAtom1 = styled.text`
+  color: var(--purple);
+`
+
+export const AboutLGPDTextAtom2 = styled.text`
+  font-weight: bold;
+  color: var(--green);
+`
+
+export const AboutLGPDImgWrapper1 = styled.div`
+  margin-right: 10rem;
+`
+
+export const AboutLGPDImgWrapper2 = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+`
+
+export const AboutLGPDImage1 = styled(Image)`
+  max-width: 100%;
+  height: auto;
+`
+
+//HowToAnon           Section 06
+export const HowToAnomSection = styled.section`
+  min-width: 360px;
+  min-height: 300px;
+
+  background: var(--green);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
+export const HowToAnomWrappBox = styled.div`
+  font-family: Anago;
+  font-weight: bold;
+`
+
+export const HowToAnomTextWrapper = styled.div`
+  width: 845px;
+
+  text-align: center;
+`
+
+export const HowToAnomTittle = styled.p`
+  font-size: clamp(var(--title), 5vw, 42px);
+
+  color: var(--purple);
+
+  padding: 20px 0;
+`
+
+export const HowToAnomText = styled.p`
+  font-size: clamp(var(--regular), 4vw, 22px);
+
+  color: var(--white);
+`
+
+//AnotherWaysTecn     Section 07
+
+//PrivateForm         Section 08
+
 export const PrivFormsWrapper = styled.section`
   display: flex;
   flex-direction: column;
@@ -295,36 +478,6 @@ export const PrivFormsWrapper = styled.section`
 
   padding: var(--paddingTop) var(--paddingLeft);
 `
-
-//WorkTogether        Section 04
-
-export const WorkTogetherSection = styled.section`
-  min-width: 360px;
-
-  background: #a1a1a1;
-
-  @media screen and (min-width: 1200px) {
-    height: 60vh;
-  }
-`
-
-//AboutLGPD           Section 05
-
-export const AboutLgpdSection = styled.section`
-  min-width: 360px;
-
-  background: #e1e1e1;
-
-  @media screen and (min-width: 1200px) {
-    height: 135vh;
-  }
-`
-
-//HowToAnon           Section 06
-
-//AnotherWaysTecn     Section 07
-
-//PrivateForm         Section 08
 
 export const PrivFormsApplicationWrapper = styled.section`
   min-width: 360px;

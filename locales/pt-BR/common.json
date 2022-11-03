@@ -112,6 +112,31 @@
     "priv-mar-item3": ", para oferecer descontos e atendimento personalizado para os pacientes dele.",
     "priv-mar-itemJ": "Julio",
 
+    "worktg-item0": "sabe que para que isso aconteça ele precisa ",
+    "worktg-item1": "compartilhar os dados ",
+    "worktg-item2": "de seus pacientes com a farmácia.",
+    "worktg-item3": "com esses dados pode obter bastante ",
+    "worktg-item4": "informações ",
+    "worktg-item5": "que a ajudaria na prosperidade de seu negócio.",
+
+    "lgpda-item0": "Mas,",
+    "lgpda-item1": "a ",
+    "lgpda-item2": "LGPD ",
+    "lgpda-item3": "barra o compartilhamento de dados pessoais, principalmente para uso comercial.",
+
+    "lgpdb-item0": "Para compartilhar",
+    "lgpdb-item1": "esses dados ",
+    "lgpdb-item2": "Julio ",
+    "lgpdb-item3": "contrata os serviços da ",
+    "lgpdb-item4": "Prify ",
+    "lgpdb-item5": "para anonimizar os dados de seus pacientes adequando o compartilhamento à ",
+
+    "lgpdc-item0" : "Privacy",
+    "lgpdc-item1" : "Black Box",
+
+    "toanom-item0" : "Para nonimizar esses dados, a prify",
+    "toanom-item1" : "fas uso de técnicas modernas de processamento das informações,",
+    "toanom-item2" : "gerando dados de qualidade, com garantias de privacidade.",
 
     "aplicacao": "Algumas aplicações do PrivForms",
     "titulo-item": "Avaliação Institucional",

@@ -21,6 +21,8 @@ const GlobalStyles = createGlobalStyle`
     --paddingLeft2: 7.8vw;
     --paddingTop: 9vw;
     --paddingTop2: 7.0vw;
+
+    --paddingTopSmall: 2.20vh;
   }
 
   * {

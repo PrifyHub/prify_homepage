@@ -10,10 +10,9 @@ import Footer from 'components/Footer'
 
 import HIWFamily from '/public/svg/services/howitworksfamily.svg'
 import HIWDoctor from '/public/svg/services/howitworksmarin.svg'
-import Institucional from '/public/svg/privForms/institucional.svg'
-import Academic from '/public/svg/privForms/academic.svg'
-
-
+import HIWPuzzle from '/public/svg/services/puzzlepiecesjm.svg'
+import HIWLgpd from '/public/svg/services/lgpd.svg'
+import HIWinfog from '/public/svg/services/infografic.svg'
 
 import useMedia from 'hooks/useMedia'
 
@@ -179,17 +178,110 @@ const ServicesHeroTemplate = () => {
             </S.HowItWorksPTextWrapper1>
             <S.HowItWorksImage1 src={HIWDoctor}></S.HowItWorksImage1>
           </S.HowItWorksPerson1>
-
         </S.HowItWorksWrapper>
-
-
       </S.HowItWorksSection>
+
       <S.WorkTogetherSection>
+        <S.WorkTogetherWrapper>
 
+        <S.WorkTogetherLeftTextWrapper>
+            <S.WorkTogetherTitle>{t('service.priv-julio')}</S.WorkTogetherTitle>
+            {t('service.worktg-item0')}
+            <S.WorkTogetherTextAtom>
+              {t('service.worktg-item1')}
+            </S.WorkTogetherTextAtom>
+            {t('service.worktg-item2')}
+          </S.WorkTogetherLeftTextWrapper>
+          <S.WorkTogetherImage1 src={HIWPuzzle}></S.WorkTogetherImage1>
+          <S.WorkTogetherRightWrapper>
+          <S.WorkTogetherTitle>
+              <S.WorkTogetherTextAtom>
+                {t('service.priv-mariana')}
+              </S.WorkTogetherTextAtom>
+            </S.WorkTogetherTitle>
+            {t('service.worktg-item3')}
+            <S.WorkTogetherTextAtom>
+              {t('service.worktg-item4')}
+            </S.WorkTogetherTextAtom>
+            {t('service.worktg-item5')}
+          </S.WorkTogetherRightWrapper>
+        </S.WorkTogetherWrapper>
       </S.WorkTogetherSection>
-      <S.AboutLgpdSection>
 
-      </S.AboutLgpdSection>
+      <S.AboutLGPDSection>
+        <S.AboutLGPDWrapper>
+          <S.AboutLGPDTextW1>
+            <S.AboutLGPDTitle>
+              <S.AboutLGPDTextAtom1>
+                {t('service.lgpda-item0')}
+              </S.AboutLGPDTextAtom1>
+            </S.AboutLGPDTitle>
+            <S.AboutLGPDText>
+              {t('service.lgpda-item1')}
+              <S.AboutLGPDTextAtom2>
+                {t('service.lgpda-item2')}
+              </S.AboutLGPDTextAtom2>
+              {t('service.lgpda-item3')}
+            </S.AboutLGPDText>
+          </S.AboutLGPDTextW1>
+
+          <S.AboutLGPDImgWrapper1>
+            <S.AboutLGPDImage1 src={HIWLgpd}></S.AboutLGPDImage1>
+          </S.AboutLGPDImgWrapper1>
+        </S.AboutLGPDWrapper>
+
+        <S.AboutLGPDWrapper>
+          <S.AboutLGPDTextW2>
+            <S.AboutLGPDTitle>
+              <S.AboutLGPDTextAtom2>
+                {t('service.lgpdb-item0')}
+              </S.AboutLGPDTextAtom2>
+            </S.AboutLGPDTitle>
+            <S.AboutLGPDText>
+              {t('service.lgpdb-item1')}
+              <S.AboutLGPDTextAtom1>
+                {t('service.lgpdb-item2')}
+              </S.AboutLGPDTextAtom1>
+              {t('service.lgpdb-item3')}
+              <S.AboutLGPDTextAtom1>
+                {t('service.lgpdb-item4')}
+              </S.AboutLGPDTextAtom1>
+              {t('service.lgpdb-item5')}
+              <S.AboutLGPDTextAtom2>
+                {t('service.lgpda-item2')}
+              </S.AboutLGPDTextAtom2>
+            </S.AboutLGPDText>
+          </S.AboutLGPDTextW2>
+        </S.AboutLGPDWrapper>
+
+        <S.AboutLGPDWrapper>
+          <S.AboutLGPDSubtextW>
+            <S.AboutLGPDText>
+              <S.AboutLGPDSubtext>{t('service.lgpdc-item0')}</S.AboutLGPDSubtext>
+            </S.AboutLGPDText>
+            <S.AboutLGPDText>
+              <S.AboutLGPDSubtext>{t('service.lgpdc-item1')}</S.AboutLGPDSubtext>
+            </S.AboutLGPDText>
+          </S.AboutLGPDSubtextW>
+          <S.AboutLGPDImgWrapper2>
+            <S.AboutLGPDImage1 src={HIWinfog}></S.AboutLGPDImage1>
+          </S.AboutLGPDImgWrapper2>
+        </S.AboutLGPDWrapper>
+      </S.AboutLGPDSection>
+
+      <S.HowToAnomSection>
+        <S.HowToAnomWrappBox>
+          <S.HowToAnomTextWrapper>
+            <S.HowToAnomTittle>{t('service.toanom-item0')}</S.HowToAnomTittle>
+          </S.HowToAnomTextWrapper>
+          <S.HowToAnomTextWrapper>
+            <S.HowToAnomText>{t('service.toanom-item1')}</S.HowToAnomText>
+          </S.HowToAnomTextWrapper>
+          <S.HowToAnomTextWrapper>
+            <S.HowToAnomText>{t('service.toanom-item2')}</S.HowToAnomText>
+          </S.HowToAnomTextWrapper>
+        </S.HowToAnomWrappBox>
+      </S.HowToAnomSection>
     </>
   )
 }
