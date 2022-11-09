@@ -106,10 +106,11 @@
     "priv-julio": "Julio",
     "priv-jul-item": "tem uma pequena clínica em seu bairro, para atender a população local",
     "priv-mariana": "Mariana",
-    "priv-mar-item0": "também mora no bairo de ",
+    "priv-mar-item0": "também mora no bairro de ",
     "priv-mar-item1": ", além de morar lá, ela tem uma farmácia no mesmo bairro.",
     "priv-mar-item2": "deseja fazer uma parceria com ",
     "priv-mar-item3": ", para oferecer descontos e atendimento personalizado para os pacientes dele.",
+    "priv-mar-itemJs": "Julio",
     "priv-mar-itemJ": "Julio",
 
     "worktg-item0": "sabe que para que isso aconteça ele precisa ",
@@ -134,7 +135,8 @@
     "lgpdc-item0" : "Privacy",
     "lgpdc-item1" : "Black Box",
 
-    "toanom-item0" : "Para nonimizar esses dados, a prify",
+
+    "toanom-item0" : "Para anonimizar esses dados, a prify",
     "toanom-item1" : "fas uso de técnicas modernas de processamento das informações,",
     "toanom-item2" : "gerando dados de qualidade, com garantias de privacidade.",
 
@@ -148,7 +150,9 @@
     "descricao-item2": "Colete dados para as suas pesquisas de forma privada",
 
     "demanda1": "Você tem outra demanda?",
-    "demanda-descricao": "A sua demanda não está contemplada pelo Privform? Fale com a gente para uma solução personalizada.",
+    "demanda-descricao0": "A sua demanda não está contemplada pela ",
+    "demanda-descricao1": "Prify",
+    "demanda-descricao2": "? Fale com a gente para uma solução personalizada.",
 
     "enviar": "Enviar"
   },

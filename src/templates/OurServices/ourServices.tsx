@@ -14,6 +14,13 @@ import HIWPuzzle from '/public/svg/services/puzzlepiecesjm.svg'
 import HIWLgpd from '/public/svg/services/lgpd.svg'
 import HIWinfog from '/public/svg/services/infografic.svg'
 
+import HIWHealth from '/public/svg/privForms/health.svg'
+import HIWInstitucional from '/public/svg/privForms/institucional.svg'
+import HIWAcademic from '/public/svg/privForms/academic.svg'
+
+import PrifyPw from '/public/svg/home/prifyWhite.svg'
+import PrifyWh from '/public/svg/home/prifyhubWhite.svg'
+
 import useMedia from 'hooks/useMedia'
 
 import useTranslation from 'next-translate/useTranslation'
@@ -164,7 +171,7 @@ const ServicesHeroTemplate = () => {
               <S.HowItWorksText1>
                 {t('service.priv-mar-item0')}
                 <S.HowItWorksTextAtom1>
-                  {t('service.priv-mar-itemJ')}
+                  {t('service.priv-mar-itemJs')}
                 </S.HowItWorksTextAtom1>
                 {t('service.priv-mar-item1')}
               </S.HowItWorksText1>
@@ -183,8 +190,7 @@ const ServicesHeroTemplate = () => {
 
       <S.WorkTogetherSection>
         <S.WorkTogetherWrapper>
-
-        <S.WorkTogetherLeftTextWrapper>
+          <S.WorkTogetherLeftTextWrapper>
             <S.WorkTogetherTitle>{t('service.priv-julio')}</S.WorkTogetherTitle>
             {t('service.worktg-item0')}
             <S.WorkTogetherTextAtom>
@@ -194,7 +200,7 @@ const ServicesHeroTemplate = () => {
           </S.WorkTogetherLeftTextWrapper>
           <S.WorkTogetherImage1 src={HIWPuzzle}></S.WorkTogetherImage1>
           <S.WorkTogetherRightWrapper>
-          <S.WorkTogetherTitle>
+            <S.WorkTogetherTitle>
               <S.WorkTogetherTextAtom>
                 {t('service.priv-mariana')}
               </S.WorkTogetherTextAtom>
@@ -255,16 +261,24 @@ const ServicesHeroTemplate = () => {
         </S.AboutLGPDWrapper>
 
         <S.AboutLGPDWrapper>
-          <S.AboutLGPDSubtextW>
-            <S.AboutLGPDText>
-              <S.AboutLGPDSubtext>{t('service.lgpdc-item0')}</S.AboutLGPDSubtext>
-            </S.AboutLGPDText>
-            <S.AboutLGPDText>
-              <S.AboutLGPDSubtext>{t('service.lgpdc-item1')}</S.AboutLGPDSubtext>
-            </S.AboutLGPDText>
-          </S.AboutLGPDSubtextW>
           <S.AboutLGPDImgWrapper2>
             <S.AboutLGPDImage1 src={HIWinfog}></S.AboutLGPDImage1>
+
+            <S.AboutLGPDSubtextW>
+              <S.AboutLGPDText>
+                <S.AboutLGPDSubtext>
+                  {t('service.lgpdc-item0')}
+                </S.AboutLGPDSubtext>
+              </S.AboutLGPDText>
+              <S.AboutLGPDText>
+                <S.AboutLGPDSubtext>
+                  {t('service.lgpdc-item1')}
+                </S.AboutLGPDSubtext>
+              </S.AboutLGPDText>
+              <S.AboutLGPDLogoW>
+                <S.Logo src={PrifyWh}></S.Logo>
+              </S.AboutLGPDLogoW>
+            </S.AboutLGPDSubtextW>
           </S.AboutLGPDImgWrapper2>
         </S.AboutLGPDWrapper>
       </S.AboutLGPDSection>
@@ -282,6 +296,156 @@ const ServicesHeroTemplate = () => {
           </S.HowToAnomTextWrapper>
         </S.HowToAnomWrappBox>
       </S.HowToAnomSection>
+
+      <S.PrivFormsApplicationWrapper>
+        <S.ApplicationSectionTitle>
+          {t('service.aplicacao')}
+        </S.ApplicationSectionTitle>
+        <S.ApplicationListWrapper>
+          <S.ApplicationItem>
+            <S.ItemImage src={HIWInstitucional} />
+            <S.ApplicationItemTitle>
+              {t('service.titulo-item')}
+            </S.ApplicationItemTitle>
+            <S.ApplicationItemDescription>
+              {t('service.descricao-item')}
+            </S.ApplicationItemDescription>
+          </S.ApplicationItem>
+          <S.ApplicationItem>
+            <S.ItemImage src={HIWHealth} />
+            <S.ApplicationItemTitle>
+              {t('service.titulo-item1')}
+            </S.ApplicationItemTitle>
+            <S.ApplicationItemDescription>
+              {t('service.descricao-item1')}
+            </S.ApplicationItemDescription>
+          </S.ApplicationItem>
+          <S.ApplicationItem>
+            <S.ItemImage src={HIWAcademic} />
+            <S.ApplicationItemTitle>
+              {t('service.titulo-item2')}
+            </S.ApplicationItemTitle>
+            <S.ApplicationItemDescription>
+              {t('service.descricao-item2')}
+            </S.ApplicationItemDescription>
+          </S.ApplicationItem>
+        </S.ApplicationListWrapper>
+      </S.PrivFormsApplicationWrapper>
+
+      {width >= 1200 ? (
+        <S.DemandContactWrapper>
+          <S.ContactSectionWrapper>
+            <S.ContactWrapperText>
+              <S.DemandTitle>{t('service.demanda1')}</S.DemandTitle>
+              <S.DemandDescription>
+                {t('service.demanda-descricao0')}
+                <S.DemandDescriptionAtom>
+                  {t('service.demanda-descricao1')}
+                </S.DemandDescriptionAtom>
+                {t('service.demanda-descricao2')}
+              </S.DemandDescription>
+            </S.ContactWrapperText>
+            <S.FormsWrapper>
+              <S.Form onSubmit={handleSubmit}>
+                <S.FormInput
+                  placeholder={t('nome')}
+                  name="name"
+                  style={{ border: `1px solid` + borderColor }}
+                  value={name.value}
+                  onChange={name.onChange}
+                />
+                {name.requiredValue && (
+                  <p className="requiredMessage">{t('contact.obrigatorio')}</p>
+                )}
+                <S.FormInput
+                  placeholder={t('empresa')}
+                  name="companie"
+                  style={{ border: `1px solid` + borderColor }}
+                  value={companie.value}
+                  onChange={companie.onChange}
+                />
+                {companie.requiredValue && (
+                  <p className="requiredMessage">{t('contact.obrigatorio')}</p>
+                )}
+                <S.FormInput
+                  placeholder={t('email')}
+                  name="email"
+                  style={{ border: `1px solid` + borderColor }}
+                  value={email.value}
+                  onChange={email.onChange}
+                />
+                {(email.requiredValue && (
+                  <p className="requiredMessage">{t('contact.obrigatorio')}</p>
+                )) ||
+                  (!email.requiredValue && email.invalidField && (
+                    <p className="requiredMessage">{t('contact.invalido')}</p>
+                  ))}
+                <S.FormTextArea
+                  placeholder={t('demanda')}
+                  name="message"
+                  style={{ border: `1px solid` + borderColor }}
+                  value={demmand.value}
+                  onChange={demmand.onChange}
+                />
+                {demmand.requiredValue && (
+                  <p className="requiredMessage">{t('contact.obrigatorio')}</p>
+                )}
+                <S.ButtonWrapper>
+                  <SmallButton>{t('service.enviar')}</SmallButton>
+                </S.ButtonWrapper>
+              </S.Form>
+            </S.FormsWrapper>
+          </S.ContactSectionWrapper>
+        </S.DemandContactWrapper>
+      ) : (
+        <S.DemandContactWrapper>
+          <S.ContactSectionWrapper>
+            <S.ContactWrapperText>
+              <S.DemandTitle>{t('service.demanda1')}</S.DemandTitle>
+              <S.DemandDescription>
+                {t('service.demanda-descricao0')}
+                <S.DemandDescriptionAtom>
+                  {t('service.demanda-descricao1')}
+                </S.DemandDescriptionAtom>
+                {t('service.demanda-descricao2')}
+              </S.DemandDescription>
+            </S.ContactWrapperText>
+            <S.FormsWrapper>
+              <S.Form>
+                <S.FormInput
+                  placeholder={t('nome')}
+                  style={{ border: `1px solid` + borderColor }}
+                  value={name.value}
+                  onChange={name.onChange}
+                />
+                <S.FormInput
+                  placeholder={t('empresa')}
+                  style={{ border: `1px solid` + borderColor }}
+                  value={companie.value}
+                  onChange={companie.onChange}
+                />
+                <S.FormInput
+                  placeholder={t('email')}
+                  style={{ border: `1px solid` + borderColor }}
+                  value={email.value}
+                  onChange={email.onChange}
+                />
+                <S.FormTextArea
+                  placeholder={t('demanda')}
+                  style={{ border: `1px solid` + borderColor }}
+                  value={demmand.value}
+                  onChange={demmand.onChange}
+                />
+              </S.Form>
+              <S.ButtonWrapper>
+                <MobileButton>{t('service.enviar')}</MobileButton>
+              </S.ButtonWrapper>
+            </S.FormsWrapper>
+          </S.ContactSectionWrapper>
+        </S.DemandContactWrapper>
+      )}
+
+      {width >= 1200 ? <DesktopFooter /> : <Footer />}
     </>
   )
 }

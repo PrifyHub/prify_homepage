@@ -345,7 +345,6 @@ export const AboutLGPDSection = styled.section`
   min-width: 360px;
 
   @media screen and (min-width: 1200px) {
-    // height: 130vh;
     min-width: 1100px;
   }
 `
@@ -390,8 +389,12 @@ export const AboutLGPDText = styled.div`
 `
 
 export const AboutLGPDSubtextW = styled.div`
-
   text-align: center;
+  position: absolute;
+
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 `
 
 export const AboutLGPDSubtext = styled.p`
@@ -399,8 +402,7 @@ export const AboutLGPDSubtext = styled.p`
 
   font-weight: 800;
 
-  color: var(--purple);
-  // color: var(--white);
+  color: var(--white);
 `
 
 export const AboutLGPDTextAtom1 = styled.text`
@@ -419,12 +421,20 @@ export const AboutLGPDImgWrapper1 = styled.div`
 export const AboutLGPDImgWrapper2 = styled.div`
   margin-left: auto;
   margin-right: auto;
+
+  position: relative;
 `
 
 export const AboutLGPDImage1 = styled(Image)`
   max-width: 100%;
   height: auto;
 `
+
+export const AboutLGPDLogoW = styled.div`
+  padding-top: 15px;
+`
+
+export const Logo = styled(Image)``
 
 //HowToAnon           Section 06
 export const HowToAnomSection = styled.section`
@@ -463,10 +473,8 @@ export const HowToAnomText = styled.p`
   color: var(--white);
 `
 
-//AnotherWaysTecn     Section 07
 
-//PrivateForm         Section 08
-
+//PrivateForm         Section 07
 export const PrivFormsWrapper = styled.section`
   display: flex;
   flex-direction: column;
@@ -561,18 +569,6 @@ export const ApplicationItemDescription = styled.p`
 
   color: var(--white);
 `
-export const DemandContactWrapper = styled.section`
-  min-width: 360px;
-  height: 700px;
-
-  background: var(--white);
-
-  padding: var(--large) var(--paddingLeft);
-
-  @media screen and (min-width: 1200px) {
-    padding: 140px var(--paddingLeft);
-  }
-`
 
 export const ContactSectionWrapper = styled.div`
   /* width: 90%; */
@@ -606,6 +602,19 @@ export const ContactWrapperText = styled.div`
   }
 `
 
+export const DemandContactWrapper = styled.section`
+  min-width: 360px;
+  height: 700px;
+
+  background: var(--white);
+
+  padding: var(--large) var(--paddingLeft);
+
+  @media screen and (min-width: 1200px) {
+    padding: 140px var(--paddingLeft2);
+  }
+`
+
 export const DemandTitle = styled.p`
   font-family: Anago;
   font-weight: bold;
@@ -628,10 +637,15 @@ export const DemandDescription = styled.p`
   font-family: Anago;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  // font-size: 18px;
+  font-size: var(--regular);
   line-height: 32px;
 
   color: var(--grey);
+`
+
+export const DemandDescriptionAtom = styled.text`
+  font-weight: 800;
 `
 
 export const FormsWrapper = styled.div`
