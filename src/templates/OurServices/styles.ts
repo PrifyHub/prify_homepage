@@ -126,12 +126,6 @@ export const Principle = styled.p`
 export const HowItWorksSection = styled.section`
   min-width: 360px;
   min-height: 123vh; //1170px
-  // max-width: 560px;
-  // height: 123vh; // 1170px
-
-  // @media screen and (min-width: 1200px) {
-  //   height: 122vh;
-  // }
 `
 
 export const HowItWorksWrapper = styled.div`
@@ -207,7 +201,7 @@ export const HowItWorksPerson1 = styled.div`
 
   justify-content: right;
 
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     width: 1200px;
     height: 490px;
     margin: auto;
@@ -244,7 +238,6 @@ export const HowItWorksTextAtom1 = styled.text`
 export const HowItWorksImage1 = styled(Image)`
   max-width: 100%;
   max-height: 100%;
-  // vertical-align: top;
 `
 
 export const HowItWorksBtn = styled.div`
@@ -270,13 +263,8 @@ export const HowItWorksListItem = styled.li`
 export const WorkTogetherSection = styled.section`
   min-width: 360px;
   height: 560px; //60vh;
-  // padding-top: 10px;
 
   background: var(--purple);
-
-  @media screen and (min-width: 1200px) {
-    // min-height: 60vh;
-  }
 `
 
 export const WorkTogetherWrapper = styled.div`
@@ -317,7 +305,6 @@ export const WorkTogetherLeftTextWrapper = styled.div`
 
 export const WorkTogetherRightWrapper = styled.div`
   width: 250px;
-  // margin-right: auto;
   margin-left: 80px;
   padding-top: 150px;
 
@@ -399,7 +386,6 @@ export const AboutLGPDSubtextW = styled.div`
 
 export const AboutLGPDSubtext = styled.p`
   font-size: var(--smaller);
-
   font-weight: 800;
 
   color: var(--white);
@@ -411,6 +397,7 @@ export const AboutLGPDTextAtom1 = styled.text`
 
 export const AboutLGPDTextAtom2 = styled.text`
   font-weight: bold;
+
   color: var(--green);
 `
 
@@ -472,7 +459,6 @@ export const HowToAnomText = styled.p`
 
   color: var(--white);
 `
-
 
 //PrivateForm         Section 07
 export const PrivFormsWrapper = styled.section`
