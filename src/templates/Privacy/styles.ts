@@ -3,12 +3,13 @@ import styled from 'styled-components'
 import Image from 'next/image'
 
 export const HeroContent = styled.main`
+  width: 100%;
   min-width: 360px;
   height: 90vh; // 628px
 
-  padding: 0 var(--paddingLeft);
-
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   background-image: url('img/privacyHero.png');
@@ -17,17 +18,27 @@ export const HeroContent = styled.main`
   background-position: center;
 
   @media screen and (min-width: 1200px) {
+    min-width: 312px;
     height: 100vh;
   }
 `
 
-export const TextWrapper = styled.div`
+export const HeroWrapper = styled.div`
   width: 100%;
-  max-width: 1920px;
-  margin: 0 auto;
+  padding: 0 var(--paddingLeft2);
+  align-items: initial;
+`
+
+export const TextWrapper = styled.div`
+  max-width: 360px;
+
+  width: 85%;
   p + p {
-    width: 85%;
     margin-top: var(--regular);
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 600px;
   }
 `
 

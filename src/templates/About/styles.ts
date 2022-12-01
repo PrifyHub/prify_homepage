@@ -4,14 +4,15 @@ import { LinkedinWithCircle } from '@styled-icons/entypo-social'
 
 import Image from 'next/image'
 
-export const Content = styled.main`
+export const HeroContent = styled.main`
+  width: 100%;
   min-width: 360px;
   height: 90vh; // 628px
 
-  padding: 0 var(--paddingLeft);
-
   display: flex;
   align-items: center;
+  // flex-direction: column;
+  // jusify-content: center;
 
   background: url('img/aboutHeroBg.jpg') no-repeat center;
   background-size: cover;
@@ -22,7 +23,10 @@ export const Content = styled.main`
 `
 
 export const HeroWrapper = styled.div`
-  max-width: 1920px;
+  // max-width: 1920px;
+  width: 100%;
+  padding: 0 var(--paddingLeft2);
+  align-items: initial;
 `
 
 export const TextWrapper = styled.div`

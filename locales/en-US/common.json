@@ -99,16 +99,53 @@
     "list-item3": "We use the best ways to treat your data",
 
     "privform": "PrivForms:",
-    "como-funciona": "how does it work?",
-    "priv-item": "Ensure secure data collection",
-    "priv-item1": "All data collected is anonymized via randomization using Differential Privacy",
-    "priv-item2": "Give your respondents the freedom to express themselves without fear",
-    "priv-item3": "Get reliable data where respondents don't need to hide their real answers",
+    "priv-howit": "How does Prify work?",
+    "priv-item0": "We create solutions that simplify the complex world of data and deliver everything in the palm of your hand. So you have access to all the information ",
+    "priv-item1": "protected ",
+    "priv-item2": "and you can use that private data as you wish!",
+    "priv-item3": "See below and understand more:",
+    "priv-julio": "Julio",
+    "priv-jul-item": "has a small clinic in his neighborhood to serve the local population",
+    "priv-mariana": "Mariana",
+    "priv-mar-item0": "also lives in ",
+    "priv-mar-item1": " neighborhood, in addition to living there, she has a pharmacy in the same neighborhood.",
+    "priv-mar-item2": "wants to partner with ",
+    "priv-mar-item3": ", to offer discounts and personalized care for his patients",
+    "priv-mar-itemJs": "Julio's",
+    "priv-mar-itemJ": "Julio",
+
+
+    "worktg-item0": "knows that for this to happen he needs",
+    "worktg-item1": " share the data",
+    "worktg-item2": " of your patients with the pharmacy.",
+    "worktg-item3": " with this data can get a lot",
+    "worktg-item4": " information",
+    "worktg-item5": " that would help her to prosper her business.",
+
+    "lgpda-item0": "But,",
+    "lgpda-item1": "the ",
+    "lgpda-item2": "LGPD ",
+    "lgpda-item3": "prevents the sharing of personal data, mainly for commercial use.",
+
+    "lgpdb-item0": "To share",
+    "lgpdb-item1": "this data ",
+    "lgpdb-item2": "Julio ",
+    "lgpdb-item3": "hire the services of ",
+    "lgpdb-item4": "Prify ",
+    "lgpdb-item5": "to anonymize the data of your patients adapting the sharing to the ",
 
     "aplicacao": "Some PrivForms Uses",
     "titulo-item": "Institutional Evaluation",
     "titulo-item1": "Health research",
     "titulo-item2": "Academic research",
+
+    "lgpdc-item0" : "Privacy",
+    "lgpdc-item1" : "Black Box",
+
+
+    "toanom-item0" : "To anonymize this data, prify",
+    "toanom-item1" : "make use of modern information processing techniques,",
+    "toanom-item2" : "generating quality data, with privacy guarantees.",
 
     "descricao-item": "Collect authentic and private data to improve your business",
     "descricao-item1": "Protect your patients' privacy",

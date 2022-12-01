@@ -98,12 +98,47 @@
     "list-item3": "Utilizamos o melhores meios para tratar seus dados",
 
     "privform": "PrivForms:",
-    "como-funciona": "como funciona?",
-    "priv-item": "Garanta a coleta segura de dados de dados",
-    "priv-item1": "Todos os dados coletados são anonimizados via randomização usando Privacidade Diferencial",
-    "priv-item2": "Dê a liberdade para os seus respondentes se expressarem sem medo",
-    "priv-item3": "Obtenha dados confiáveis onde os respondentes não precisem esconder suas reais respostas",
+    "priv-howit": "Como funciona a Prify?",
+    "priv-item0": "Criamos soluções que simplificam o complexo mundo dos dados e entregamos tudo na palma da sua mão. Assim, você tem acesso a todas as informações ",
+    "priv-item1": "protegidas",
+    "priv-item2": ", e pode utilizar esses dados privados da forma como desejar!",
+    "priv-item3": "Veja abaixo e entenda mais:",
+    "priv-julio": "Julio",
+    "priv-jul-item": "tem uma pequena clínica em seu bairro, para atender a população local",
+    "priv-mariana": "Mariana",
+    "priv-mar-item0": "também mora no bairro de ",
+    "priv-mar-item1": ", além de morar lá, ela tem uma farmácia no mesmo bairro.",
+    "priv-mar-item2": "deseja fazer uma parceria com ",
+    "priv-mar-item3": ", para oferecer descontos e atendimento personalizado para os pacientes dele.",
+    "priv-mar-itemJs": "Julio",
+    "priv-mar-itemJ": "Julio",
 
+    "worktg-item0": "sabe que para que isso aconteça ele precisa ",
+    "worktg-item1": "compartilhar os dados ",
+    "worktg-item2": "de seus pacientes com a farmácia.",
+    "worktg-item3": "com esses dados pode obter bastante ",
+    "worktg-item4": "informações ",
+    "worktg-item5": "que a ajudaria na prosperidade de seu negócio.",
+
+    "lgpda-item0": "Mas,",
+    "lgpda-item1": "a ",
+    "lgpda-item2": "LGPD ",
+    "lgpda-item3": "barra o compartilhamento de dados pessoais, principalmente para uso comercial.",
+
+    "lgpdb-item0": "Para compartilhar",
+    "lgpdb-item1": "esses dados ",
+    "lgpdb-item2": "Julio ",
+    "lgpdb-item3": "contrata os serviços da ",
+    "lgpdb-item4": "Prify ",
+    "lgpdb-item5": "para anonimizar os dados de seus pacientes adequando o compartilhamento à ",
+
+    "lgpdc-item0" : "Privacy",
+    "lgpdc-item1" : "Black Box",
+
+
+    "toanom-item0" : "Para anonimizar esses dados, a prify",
+    "toanom-item1" : "fas uso de técnicas modernas de processamento das informações,",
+    "toanom-item2" : "gerando dados de qualidade, com garantias de privacidade.",
 
     "aplicacao": "Algumas aplicações do PrivForms",
     "titulo-item": "Avaliação Institucional",
@@ -115,7 +150,9 @@
     "descricao-item2": "Colete dados para as suas pesquisas de forma privada",
 
     "demanda1": "Você tem outra demanda?",
-    "demanda-descricao": "A sua demanda não está contemplada pelo Privform? Fale com a gente para uma solução personalizada.",
+    "demanda-descricao0": "A sua demanda não está contemplada pela ",
+    "demanda-descricao1": "Prify",
+    "demanda-descricao2": "? Fale com a gente para uma solução personalizada.",
 
     "enviar": "Enviar"
   },

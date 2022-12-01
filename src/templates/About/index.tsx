@@ -20,15 +20,17 @@ const AboutTemplate = () => {
   const { t } = useTranslation('common')
   return (
     <>
-      {width >= 1280 ? <DesktopNavbar /> : <Navbar />}
-      <S.Content>
+      {width <= 1200 && <Navbar />}
+      <S.HeroContent>
+        {width >= 1200 && <DesktopNavbar />}
         <S.HeroWrapper>
           <S.TextWrapper>
             <S.AboutHeroTitle>{t('about.titulo')}</S.AboutHeroTitle>
             <S.AboutUsText>{t('about.descricao')}</S.AboutUsText>
           </S.TextWrapper>
         </S.HeroWrapper>
-      </S.Content>
+      </S.HeroContent>
+
       <S.InfoContent>
         <S.TitleWrapper>
           <S.BasicInfoTitle>{t('about.basic')}</S.BasicInfoTitle>

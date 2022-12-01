@@ -28,13 +28,17 @@ const PrivacyTemplate = () => {
 
   return (
     <>
-      {width >= 1280 ? <DesktopNavbar /> : <Navbar />}
+      {width <= 1200 && <Navbar />}
       <S.HeroContent>
-        <S.TextWrapper>
-          <S.HeroTitle>{t('privacy.titulo')}</S.HeroTitle>
-          <S.HeroText>{t('privacy.descricao')} </S.HeroText>
-        </S.TextWrapper>
+        {width >= 1200 && <DesktopNavbar />}
+        <S.HeroWrapper>
+          <S.TextWrapper>
+            <S.HeroTitle>{t('privacy.titulo')}</S.HeroTitle>
+            <S.HeroText>{t('privacy.descricao')} </S.HeroText>
+          </S.TextWrapper>
+        </S.HeroWrapper>
       </S.HeroContent>
+
       <S.ExplanationWrapper>
         <S.ExplanationTextWrapper>
           <S.Explanation>{t('privacy.explicacao')}</S.Explanation>
